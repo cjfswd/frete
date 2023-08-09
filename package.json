@@ -1,6 +1,6 @@
 {
-    "name": "frete",
-    "version": "0.4.8",
+    "name": "cjfswdfrete",
+    "version": "0.0.0",
     "description": "Modulo para consumo da API de frete dos correios brasileiros, com apenas node-soap como dependencia e consultando *apenas* a api dos correios, promises support.",
     "main": "frete.js",
     "dependencies": {
@@ -17,7 +17,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/Deividy/frete.git"
+        "url": "https://github.com/cjfswd/frete.git"
     },
     "keywords": [
         "frete",
@@ -30,7 +30,7 @@
     "author": "Deividy Metheler Zachetti <deividyz@gmail.com>",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/Deividy/frete/issues"
+        "url": "https://github.com/cjfswd/frete/issues"
     },
-    "homepage": "https://github.com/Deividy/frete"
+    "homepage": "https://github.com/cjfswd/frete"
 }

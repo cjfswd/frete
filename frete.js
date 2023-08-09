@@ -1,14 +1,12 @@
 'use strict';
-
-const path = require('path');
-
 const soap = require('soap');
 const V = require('argument-validator');
 const util = require('util');
+const cache = require('./correios-data/cache');
 
-// on file system to improve perf.
-const SOAP_WSDL = path.resolve(__dirname, 'correios-data/CalcPrecoPrazo.xml');
-const servicesArray = require('./correios-data/listaServicos.json');
+// on memory system to use in serveless env.
+const SOAP_WSDL = cache.xml;
+const servicesArray = cache.json;
 
 function extend (target /* , objs... */) {
     V.objectOrEmpty(target, 'target');
